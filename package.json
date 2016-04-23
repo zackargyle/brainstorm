@@ -1,0 +1,29 @@
+{
+  "name": "brainstorm",
+  "description": "Quickstart prototyping tool for React components",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zackargyle/brainstorm.git"
+  },
+  "homepage": "https://github.com/zackargyle/brainstorm",
+  "author": {
+    "email": "zack.argyle@gmail.com",
+    "name": "Zack Argyle",
+    "url": "http://zackargyle.com"
+  },
+  "bin": {
+    "brainstorm": "./bin/brainstorm"
+  },
+  "dependencies": {
+    "invariant": "^2.2.1",
+    "yargs": "^4.6.0"
+  },
+  "keywords": [
+    "react",
+    "prototyping",
+    "brainstorm"
+  ],
+  "license": "ISC"
+}

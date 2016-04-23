@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+const argv = require('yargs')
+                .alias('b', 'browser')
+                .alias('e', 'editor')
+                .default({
+                    browser: '"Google Chrome"',
+                    editor: 'subl'
+                })
+                .argv;
+
+require('../index')(argv);
