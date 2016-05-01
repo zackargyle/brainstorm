@@ -5,7 +5,9 @@ Brainstorm
 > npm install -g brainstorm
 ```
 
-Brainstorm is a quick start tool for React component prototyping. Basically, I was sick of creating a new directory with all the es6/jsx/webpack setup each time I wanted to prototype a new component, in comes `brainstorm`. The idea is simple, pass it a file name and it will use it as the basis for a new project. Let's say I wanted to create a new tooltip. Here's what you would run:
+Brainstorm is a quick start tool for React component prototyping. Basically, I was sick of creating a new directory with all the es6/jsx/webpack setup each time I wanted to prototype a new component, in comes `brainstorm`. The idea is simple, pass it a file name and it will use it as the basis for a new project. This project will be set up with React, Babel, Webpack and Scss.
+
+Let's say I wanted to create a new tooltip. Here's what you would run:
 
 ```
 > brainstorm react-fancy-tooltip
@@ -35,6 +37,5 @@ browser     | b      | "Google Chrome" | the browser to use
 #### TODO
 - Add tests
 - Add --redux support
-- Add scss or cssmodules or something
 - Look into postinstall for downloading component dependencies once to avoid `npm install`
 - Better `editor` and `browser` support
